@@ -42,7 +42,7 @@ module.exports = function (app) {
           newProject.save((err, data) => {
             if (err || !data) {
               res.send("There was an error saving in post");
-            }else {
+            } else {
               res.json(newIssue);
             }
           });
