@@ -17,7 +17,7 @@ const ProjectSchema = new Schema({
     name: { type: String, required: true },
     issues: [IssueSchema],
 });
-const Project = mongoose.model;("Project", ProjectSchema);
+const Project = mongoose.model("Project", ProjectSchema);
 
 exports.Issue = Issue;
 exports.Project = Project;
